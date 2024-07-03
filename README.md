@@ -1,8 +1,7 @@
 ## Hi there 👋
 
 # 🌱 I’m currently learning ...
-
-http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kyo0221&theme=transparent
+[![graph](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kyo0221&theme=transparent)](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kyo0221)](https://github.com/anuraghazra/github-readme-stats)
 
