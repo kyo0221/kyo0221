@@ -31,20 +31,16 @@ Building autonomous robots through motion planning, control, perception, and mac
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
 </p>
 
-## GitHub stats
+## Featured projects
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=kyo0221&show_icons=true&hide_border=true&theme=github_dark&rank_icon=github" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=kyo0221&show_icons=true&hide_border=true&theme=default&rank_icon=github" />
-    <img height="165" alt="Kyo's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=kyo0221&show_icons=true&hide_border=true&theme=default&rank_icon=github" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kyo0221&layout=compact&hide_border=true&theme=github_dark&langs_count=8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kyo0221&layout=compact&hide_border=true&theme=default&langs_count=8" />
-    <img height="165" alt="Kyo's most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kyo0221&layout=compact&hide_border=true&theme=default&langs_count=8" />
-  </picture>
-</div>
+| Project | What it explores | Main stack |
+|:--|:--|:--|
+| [imitation_nav](https://github.com/kyo0221/imitation_nav) | Imitation-learning-based navigation for ROS 2 | C++ / ROS 2 |
+| [mppi_torch](https://github.com/kyo0221/mppi_torch) | Model Predictive Path Integral control | Python / PyTorch |
+| [mpc_tracker](https://github.com/kyo0221/mpc_tracker) | Model Predictive Control for trajectory tracking | C++ / ROS 2 |
+| [Depth-Anything-V2-ros2](https://github.com/kyo0221/Depth-Anything-V2-ros2) | Monocular depth estimation as a ROS 2 package | Python / ROS 2 |
+
+## Contribution activity
 
 <div align="center">
   <picture>
