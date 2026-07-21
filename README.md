@@ -40,6 +40,12 @@ Building autonomous robots through motion planning, control, perception, and mac
 | [mpc_tracker](https://github.com/kyo0221/mpc_tracker) | Model Predictive Control for trajectory tracking | C++ / ROS 2 |
 | [Depth-Anything-V2-ros2](https://github.com/kyo0221/Depth-Anything-V2-ros2) | Monocular depth estimation as a ROS 2 package | Python / ROS 2 |
 
+## Metrics
+
+<div align="center">
+  <img alt="Kyo's GitHub metrics" src="./output/metrics.svg" />
+</div>
+
 ## Contribution activity
 
 <div align="center">
