@@ -40,10 +40,10 @@ Hi, I'm Kyo Yamashita 👋
 <div align="center">
 
 <img src="https://github-stats-extended.vercel.app/api?username=kyo0221&show_icons=true&hide_border=true&bg_color=FFF9FB&title_color=8A7CA8&icon_color=F7A8C4&text_color=594F6D&ring_color=E0C3FC" alt="Kyo's GitHub stats" width="49%" />
-<img src="https://streak-stats.demolab.com/?user=kyo0221&hide_border=true&background=FFF9FB&ring=F7A8C4&fire=FFB6C1&currStreakLabel=8A7CA8&sideLabels=594F6D&currStreakNum=594F6D&sideNums=594F6D&dates=B8A9C9" alt="Kyo's GitHub streak" width="49%" />
+<img src="https://github-readme-streak-stats-eight.vercel.app/?user=kyo0221&hide_border=true&background=FFF9FB&ring=F7A8C4&fire=FFB6C1&currStreakLabel=8A7CA8&sideLabels=594F6D&currStreakNum=594F6D&sideNums=594F6D&dates=B8A9C9" alt="Kyo's GitHub streak" width="49%" />
 
 <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=kyo0221&layout=compact&hide_border=true&bg_color=FFF9FB&title_color=8A7CA8&text_color=594F6D&langs_count=8" alt="Top languages" width="49%" />
-<img src="https://github-profile-trophy.vercel.app/?username=kyo0221&theme=flat&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&row=2" alt="GitHub trophies" width="49%" />
+<img src="https://github-trophies.devomb.com/?username=kyo0221&theme=flat&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&row=2" alt="GitHub trophies" width="49%" />
 
 </div>
 
