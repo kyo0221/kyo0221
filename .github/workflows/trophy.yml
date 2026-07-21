@@ -1,0 +1,38 @@
+name: GitHub Profile Trophy
+on:
+  # 毎日0時（UTC）に自動実行
+  schedule:
+    - cron: "0 0 * * *"
+  # 手動実行も可能にする
+  workflow_dispatch:
+  # mainブランチへのpushでも実行
+  push:
+    branches:
+      - main
+jobs:
+  trophy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate trophy
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          username: kyo0221
+          file: output/trophy.svg
+          theme: flat
+          cols: 4
+          rows: 2
+          panel-size: 110
+          margin-width: 8
+          margin-height: 8
+          no-background: true
+          no-frame: true
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update trophy"
+          file_pattern: output/trophy.svg
