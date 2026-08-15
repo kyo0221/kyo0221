@@ -36,8 +36,26 @@ jobs:
           no-background: true
           no-frame: true
 
+      # git-auto-commit-actionはpush前にrebaseしないため、生成中に他ワークフローが
+      # mainへコミットするとnon-fast-forwardで失敗する。rebaseしてリトライする。
       - name: Commit and push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update trophy"
-          file_pattern: output/trophy.svg
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/trophy.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update trophy"
+          for i in 1 2 3 4 5; do
+            if git pull --rebase --autostash origin main && git push origin HEAD:main; then
+              echo "Pushed on attempt $i"
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying..."
+            sleep $((i * 5))
+          done
+          echo "Failed to push after 5 attempts"
+          exit 1
