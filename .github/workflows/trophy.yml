@@ -20,14 +20,16 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate trophy
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        # ブランチ参照はforce-pushで壊れるためコミットSHAで固定する
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKENではcontributionsCollection等のユーザースコープが取得できない
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           username: kyo0221
           file: output/trophy.svg
           theme: flat
-          cols: 4
-          rows: 2
+          max-cols: 4
+          max-rows: 2
           panel-size: 110
           margin-width: 8
           margin-height: 8
